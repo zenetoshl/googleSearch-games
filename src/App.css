@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.card{
+  font-family: "sans-serif";
+  padding: 1em;
+  text-align: center;
+  margin: 0.8em;
+  width: 20em;
+  border-color: #BDBAC1;
+  border-radius: 4%;
+}
+.divCard{
+  justify-content: center;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App-link {
+  color: #09d3ac;
+}
+.comentarios{
+  margin:0.4em;
+  justify-content: center;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pesquisa{
+  align-items: center;
+  justify-content: center;
+  margin:0.4em;
+  margin: 2em;
+  display: flex;
+}
+.titulo{
+  align-items: center;
+  justify-content: center;
+  margin:0.4em;
+  margin: 2em;
+  display: flex;
+}
+.button{
+  margin:0.4em;
+}
