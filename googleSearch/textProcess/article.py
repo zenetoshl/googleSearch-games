@@ -34,6 +34,13 @@ def newText(text):
     f.close()
     visitOneFile(title+ '.txt')
     os.chdir(path)
+    nameTreated = title.replace('.txt', '').replace('_', ' ')
+    tf = tfComputer(localDic[nameTreated])
+    tfs[nameTreated] =  tf
+    saveTfs(nameTreated, tf)
+    tfidf = tfidfComputer(tf,idf)
+    tfidfs[nameTreated] = tfidf
+    saveTfIdfs(nameTreated, tfidf)
 
 def fileLen(dic):
     lenght = 0
